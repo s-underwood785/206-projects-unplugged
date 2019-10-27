@@ -103,12 +103,15 @@ textarea {
       ========================================================================== */
 
 header, footer {
-  display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
 }
 
+.header {
+  padding: 15px 0;
+}
 
 
 header .content-wrapper {
@@ -116,6 +119,12 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
 }
 
 header nav {
@@ -123,12 +132,20 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 45%;
+  list-style: none;
+}
+
+footer .content-wrapper{
+  width: 55%:
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -145,9 +162,20 @@ footer .social-icons p {
 }
 
 
-footer .social {
-
+footer p{
+  margin: 0;
 }
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+
+
 
 
 /**************************** Mobile Styles - Homepage *******************************/
@@ -160,6 +188,10 @@ footer .social {
     flex-flow: row wrap;
 }
 
+.hero-area h1{
+  padding: 50px 20px;
+}
+
 
 /***** Aside *****/
 
@@ -170,20 +202,40 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .form-description {
+  padding: 25px 15px;
+}
+
+aside .form{
+  padding: 15px 0 20px 15px;
+}
+
 /***** Features *****/
 
 
 .features {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0 20px 15px;
 }
+
 
 .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+ .features-items article {
+  width: 55%;
+}
+
+.features p {
+  text-align: center;
+  margin: 0;
 }
 
 
@@ -193,6 +245,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 15px;
+}
+
+.reviews h3 {
+  width: 50%;
+}
+
+.lacrue p {
+  text-align: left;
 }
 
 
