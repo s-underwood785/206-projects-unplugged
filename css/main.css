@@ -115,6 +115,7 @@ textarea {
           font-family: 'Open Sans', sans-serif;
           font-size: 1em;
           text-align:left;
+          color: #e2e3ed;
    }
 
    ul,
@@ -128,10 +129,11 @@ textarea {
   }
 
 
-   h2 {
+  h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
      line-height: normal;
+     font-weight: 500;
 }
 
 h3,
@@ -139,6 +141,7 @@ h4 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.125em;
      margin: 20px 0;
+     font-weight: 500;
 }
 
 p {
@@ -147,11 +150,9 @@ p {
 }
 
 
-
 address {
   font-style: normal;
 }
-
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -162,6 +163,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #333333;
 }
 
 header {
@@ -180,6 +182,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 
 header nav {
@@ -194,10 +197,13 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -237,12 +243,14 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/girl-bridge.jpg');
+  background-size: cover;
 }
 
-h1 {
+.hero-area h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
-  line-height: normal;
+  font-weight: normal;
 }
 
 /* Aside */
@@ -252,6 +260,32 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -285,6 +319,7 @@ aside {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -292,6 +327,7 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -304,6 +340,7 @@ aside {
    ========================================================================== */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -311,6 +348,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -326,6 +364,7 @@ aside {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,10 +381,16 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
+  font-weight: 700;
 }
 
 /* ==========================================================================
