@@ -153,6 +153,14 @@ address {
   font-style: normal;
 }
 
+img {
+	width: 100%;
+}
+
+figure {
+        margin: 0;
+}
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -175,6 +183,14 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 66%;
 }
 
 .header-divider {
@@ -242,8 +258,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/girl-bridge.jpg');
+  background: url('../img/girl-bridge.jpg') center no-repeat;
   background-size: cover;
+  min-height: 500px;
+}
+
+.hero-area img {
+
 }
 
 .hero-area h1 {
@@ -293,6 +314,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/camp-background.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -327,6 +350,14 @@ input[type=button] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+}
+
+.reviews figure {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-right: 20px;
 }
 
 .reviews h3 {
@@ -576,6 +607,10 @@ h3 {
     width: 90%;
   }
 
+  .reviews figure {
+    width: 50%;
+  }
+
   .reviews article div {
     width: 49%;
   }
@@ -717,6 +752,10 @@ h3 {
   }
 
   /* Reviews */
+
+  .reviews figure {
+    width: 50%;
+  }
   .reviews article div {
     width: 42%;
   }
