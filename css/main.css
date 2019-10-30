@@ -679,6 +679,9 @@ h3 {
     width: 40%;
   }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -785,6 +788,10 @@ h3 {
   .contact-section .content-wrapper h2 {
       width: 100%;
       font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 38%;
   }
 
   .contact-section .content-wrapper h2 {
