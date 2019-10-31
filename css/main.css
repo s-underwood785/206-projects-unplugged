@@ -585,7 +585,7 @@ h3 {
   }
 
   header nav {
-    width: 20%;
+    width: 27%;
   }
 
   header nav ul {
@@ -595,6 +595,7 @@ h3 {
   .header-divider {
     display: none;
   }
+
   /* Hero Area */
 
   .hero-area h1 {
@@ -767,6 +768,12 @@ h3 {
   p {
       font-size: 1.125em;
       line-height: 1.333;
+  }
+
+  /* Header */
+
+  header nav {
+    width: 25%;
   }
 
   /* Hero */
