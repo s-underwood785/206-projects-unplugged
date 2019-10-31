@@ -97,11 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}
-
 
 /* ==========================================================================
    Global Styles
@@ -161,6 +156,11 @@ figure {
         margin: 0;
 }
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -170,7 +170,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: #333333;
+  background: #202322;
 }
 
 header {
@@ -190,7 +190,7 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 66%;
+  width: 60%;
 }
 
 .header-divider {
@@ -206,14 +206,19 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  text-transform: uppercase;
-  font-weight: bold;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
