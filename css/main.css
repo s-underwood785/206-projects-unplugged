@@ -201,20 +201,22 @@ header figure {
 }
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
-  text-transform: uppercase;
-  font-size: 1.125em;
-  font-weight: 700;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -237,6 +239,14 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+}
+
+footer address .contact {
+  font-size: .875em;
+}
+
+footer address .contact a{
+  font-size: .875em;
 }
 
 footer .social-icons {
@@ -332,6 +342,7 @@ input[type=button] {
 }
 
 .features h2 {
+  margin-top:0;
   margin-bottom: 60px;
 }
 
@@ -379,13 +390,17 @@ input[type=button] {
   display:flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews h2 {
+  margin-top:0;
 }
 
 .reviews h3 {
   width: 55%;
-  margin: 20px 0;
 }
 
 /* ==========================================================================
@@ -398,6 +413,10 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.mission h2{
+  margin-top: 0;
 }
 
 .map figure {
@@ -422,6 +441,10 @@ position: relative;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-section h2 {
+  margin-top:0;
 }
 
 .contact-content p {
@@ -449,6 +472,7 @@ position: relative;
 }
 
 .faq h2 {
+  margin-top:0;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -585,7 +609,8 @@ h3 {
   }
 
   header nav {
-    width: 27%;
+    width: 20%;
+    margin-right: 0;
   }
 
   header nav ul {
@@ -698,6 +723,11 @@ h3 {
    About Page
    ========================================================================== */
 
+.mission h2{
+  margin-bottom: 0;
+}
+
+
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -714,6 +744,7 @@ h3 {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    margin-bottom: 0;
   }
 
   .contact-content {
@@ -773,7 +804,7 @@ h3 {
   /* Header */
 
   header nav {
-    width: 25%;
+    width: 20%;
   }
 
   /* Hero */
